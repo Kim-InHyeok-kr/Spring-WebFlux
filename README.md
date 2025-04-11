@@ -12,6 +12,8 @@ Spring WebFlux는 Spring Framework 5.0에서 추가된 리액티브 프로그래
 ### 사용 배경
 - **레거시 ERP 시스템:** 결재 상태 값 요청을 동기 방식으로 처리 → 처리 속도 저하 문제 발생
 - **차세대 SAP 시스템:** 결재 상태 값 요청을 비동기 방식으로 처리 가능 → WebFlux의 도입으로 효율성 개선 기대
+### 연동 프로세스 아키텍처
+![Integration Process](docs/integration-process.png)
 
 ## 3. build.gradle 설정
 
